@@ -1,0 +1,346 @@
+body {
+	min-width: 920px;
+}
+
+header {
+	height: 740px;
+	background: url(images/Image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Josefin Sans', sans-serif;
+}
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+.firm-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 245px;
+	color: #fff;
+}
+.firm-info__name { 
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	margin-bottom: 0;
+}
+.firm-info__slogan{
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 0.27em;
+	margin-top: 0;
+}
+.header-search {
+	margin: 5px auto;
+	text-align: center;
+	position: relative;
+}
+.header-search__input {
+	width: 500px;
+	height: 60px;
+	display: inline-block;
+	border: unset;
+	text-align: center;
+	font-size: 14px;
+	color: #c2c2c2;
+	letter-spacing: 0.13em;
+}
+.header-search__button {
+	width: 150px;
+	height: 60px;
+	vertical-align: bottom;
+	padding-right: 15px;
+	border: 1px solid #fff;
+	margin-left: -6px;
+	font-family: 'Aleo', serif;
+	font-size: 14px;
+	color: #fff;
+	background-color: #5474fd;
+}
+.button-magni {
+	position: absolute;
+	top: 20px;
+	right: 250px;
+}
+.header-search__button:hover{
+	cursor: pointer;
+	background-color: #3d8127;
+}
+.header-scroll {
+	text-align: center;
+	margin-top: 120px;
+}
+.header-scroll__text {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.13em;
+	color: #b4c1cd;
+}
+.header-scroll__text:hover{
+	color: #3d8127;
+}
+nav {
+	height: 80px;
+	background-color:#5474fd;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
+.firm-name	{
+	float: left;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 1px;
+	color: #fff;
+	margin: 26px;
+}
+.firm-nav {
+	width: 525px;
+	display: flex;
+	font-family: 'Aleo', serif;
+	font-size: 14px;
+	float: right;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	margin: 32px 0 32px 0;
+}
+.firm-nav li a {
+	color: #fff;
+}
+.firm-nav li a:hover{
+	color: #3d8127;
+}
+.places {
+	background: url(Images/Rectangle7.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 685px;
+}
+.places-left {
+	float: left;
+	margin-top: 160px;
+	color: #ffffff;
+}
+.places-left__title {
+	font-family: 'Aleo', serif;
+	font-size: 36px;
+	font-weight: 400;
+}
+.places-right__rock {
+	float: right;
+	clear: left;
+	margin-top: -200px;
+}
+.places-right__house {
+	float: right;
+	margin-top: 120px;
+	margin-right: 120px;
+}
+.places-left__text {
+	width: 540px;
+	height: 160px;
+}
+.places-left__text {
+	font-family: 'Aleo', serif;
+	font-size: 16px;
+	color: #bcbaba;
+	letter-spacing: 0.05em;
+	line-height: 2.2em;
+}
+.places-left__text span {
+	margin-top: 10px;
+	display: block;
+}
+.places-button {
+	font-family: 'Aleo', serif;
+	color: #fff;
+	background-color: #5474fd;
+	width: 225px;
+	height: 60px;
+	font-size: 16px;
+	border: 0;
+	margin-top: 50px;
+	padding: 0;
+	background: rgb(84,116,253);
+	background: linear-gradient(38deg, rgba(84,116,253,1) 0%, rgba(73,107,254,1) 39%, rgba(73,107,254,1) 39%, rgba(84,116,253,1) 39%);
+}
+.places-button:hover {
+	color: #b05050;
+	cursor: pointer;
+}	
+.Three-search {
+	height: 340px;
+	background-color: #333333;
+	font-family: 'Aleo', serif;
+	font-size: 36px;
+	color: #fff;
+	font-weight: 300;
+	position: relative;
+}
+.Three-search-part {
+	width: 32.8%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 90px;
+}
+.Three-search__text {
+	margin-top: 30px;
+}
+.Three-search__lines {
+	position: absolute;
+	background: url(Images/Workelips.png);
+	background-repeat: no-repeat;
+	width: 70%;
+	height: 60px;
+	bottom: 240px;;
+	right: -25px;
+}
+.Three-search__lines-second{
+	position: absolute;
+	background: url(Images/Workelips.png);
+	background-repeat: no-repeat;
+	width: 70%;
+	height: 60px;
+	bottom: 240px;
+	right: -409px;
+}
+.Spain-appartment {
+	height: 700px;
+	background: url(Images/Rectangle414.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Spain-card {
+	width: 540px;
+	height: 375px;
+	background: url(Images/Rectangle415.png);
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	color: #afaead;
+	float: left;
+	margin-top: 230px;
+}
+.Spain-card-content {
+	padding-top: 50px;
+	margin: 0 30px;
+}
+.Spain-card__country {
+	margin-top: 0;
+	font-size: 20px;
+}
+.Spain-card__hotel {
+	font-size: 20px;
+}
+.Spain-card__text {
+	font-size: 16px;
+	color: #bcbaba;
+	letter-spacing: -0.07em;
+	line-height: 1.5em;
+}
+.back-change {
+	background: url(Images/Rectangle4141.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.right-change {
+	float: right;
+}
+.response {
+	height: 730px;
+	background: url(Images/Rectangle4142.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.response__title {
+	font-family: 'Aleo', serif;
+	font-size: 36px;
+	text-align: center;
+	color: #fff;
+	font-weight: 400;
+	padding-top: 120px;
+	margin: 0 0 85px 0;
+	letter-spacing: 0.05em;
+}
+.avatar {
+	float: left;
+}
+.response-text {
+	float: right;
+	height: 284px;;
+	width: 665px;
+	background-color: #333333;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #c8c8c8;
+}
+.response-text-container {
+	margin: 50px 60px;
+}
+.response-text__name {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.response-text__words {
+	margin-top: 30px;
+}
+footer {
+	height: 270px;
+	background-color: #232323;
+}
+.media-block__firm-name {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0 0 17px 0;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+}
+.media-block {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 90px;
+	color: #fff;
+}
+.media-block__slogan {
+	font-size: 16px;
+	font-weight: 400;
+}
+.icons {
+	width: 344px;
+	height: 26px;
+	margin: 0 auto;
+}
+.icons p {
+	height: 15px;
+	width: 27px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.fb {
+	background: url(Images/f.png);
+}
+.tw {
+	background: url(Images/t.png);
+}
+.in {
+	background: url(Images/in.png);
+}
+.yo {
+	background: url(Images/you.png);
+}
+.rs {
+	background: url(Images/rs.png);
+}
+.icons p:hover{
+	cursor: pointer;
+}

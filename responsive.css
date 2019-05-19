@@ -1,0 +1,24 @@
+@media screen and (min-width:100px) and (max-width:1024px) {
+	body {
+	width: 90%;
+	margin: 0 auto;
+	}
+	.Three-search {
+	}
+	.Spain-card {
+		float: left;
+	}
+	.places-right__house , .places-right__rock {
+		margin-right: 18%;
+	}
+	.Three-search-part {
+		width: 27%;
+	}
+	.Three-search__lines-second , .Three-search__lines {
+		display: none;
+	} 
+	.firm-nav {
+		float: left;
+		margin-left: 190px;
+	}
+}	
